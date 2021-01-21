@@ -17,3 +17,12 @@ and wdio.conf is the heart of the project
 
 to run the project just use below command
 npx wdio wdio.conf.js
+
+Use of Before Hook:
+When there are some common statements which needs to be executed only once for all IT blocks present inside the DESCRIBE block
+then we put those statements inside before hook.
+
+Use of before each hook:
+it will be used when there are some statements which needs to be executed every time for each IT block present 
+inside describe block
+
